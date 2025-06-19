@@ -11,4 +11,3 @@ def train_model():
     model.fit(x, y)
     with mlflow.start_run():
         mlflow.log_param('n_estimators', 100)
-train_model()
