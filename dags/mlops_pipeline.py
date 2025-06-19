@@ -6,7 +6,7 @@ from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 
 default_args ={
-    'owner': 'techkalvi',
+    'owner': 'vasantharan',
     'start_date': datetime(2024, 10, 27),
 }
 
